@@ -9,6 +9,7 @@ pipeline {
         stage('Compile') {
             steps {
                 echo 'Compile the source code' 
+                echo 'Ashwin Vincent Koonissery'
             }
         }
         stage('Security Check') {
